@@ -1,0 +1,120 @@
+* {
+    font-family: 'Circular', sans-serif;
+}
+
+body {
+    background-color: #ecf9ff;
+    
+}
+
+.nav-bar {
+    max-width: 1300px;
+    width: auto;
+    height: 90px;
+    margin-left: 135px;
+    margin-top: 50px;
+    background-color: #ffff;
+    border: 0;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-logo {
+    margin-left: 30px;
+    height: 35px;
+    width: auto;
+}
+
+ul {
+    list-style: none; /* Quita los puntos de lista predeterminados */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista sean flexibles */
+}
+
+#nav-links {
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 25px;
+    color: #828297;
+    cursor: pointer;
+}
+
+#nav-links:hover {
+    color: #00E5CC;
+}
+
+span {
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.nav-buttons{
+    border: 0;
+}
+
+#sigin-btn {
+    font-weight: bold;
+    font-size: 13px;
+    border: 0;
+    background-color: #ffff;
+    margin-right: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+#login-btn {
+    font-size: 13px;
+    border: 0;
+    border-radius: 10px;
+    width: 120px;
+    height: 55px;
+    background-color: #060640;
+    margin-right: 20px;
+    color: #ffff;
+    cursor: pointer;
+}
+
+#main-image {
+
+    border-radius: 15px;
+    margin-left: 350px;
+    margin-top: 80px;
+    width: 400px;
+    height: auto;
+}
+
+#main-arrow{
+    position: absolute;
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+    
+}
+
+#map-home {
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #060640;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 135px;
+    margin-top: 50px;
+    width: 420px;
+}
