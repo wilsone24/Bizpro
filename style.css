@@ -11,7 +11,8 @@ body {
     max-width: 1300px;
     width: auto;
     height: 90px;
-    margin-left: 135px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 50px;
     background-color: #ffff;
     border: 0;
@@ -21,45 +22,60 @@ body {
     justify-content: space-between;
 }
 
+.imgcontainer {
+    flex: 2; /* Ocupará 2/8 del ancho */
+    display: flex;
+    justify-content: flex-start;
+}
+
 .nav-bar a {
     text-decoration: none;
     color: black;
 }
 
 #nav-logo {
-    margin-left: 30px;
     height: 35px;
     width: auto;
+    margin-left: 50px;
 }
 
 ul {
-    list-style: none; /* Quita los puntos de lista predeterminados */
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Hace que los elementos de la lista sean flexibles */
+    display: flex;
+    flex: 4; /* Ocupará 4/8 del ancho */
+    justify-content: center; /* Centramos las `li` dentro del `ul` */
+    align-items: center;
 }
+
+li {
+    margin: 0 15px; /* Espaciado entre los elementos de lista */
+
+}
+
+.nav-buttons {
+    flex: 2; /* Ocupará 2/8 del ancho */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 
 #nav-links {
     font-size: 13px;
     font-weight: 600;
-    margin-right: 25px;
+    margin-right: 10px;
     color: #828297;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 #nav-links:hover {
     color: #00E5CC;
 }
 
-span {
-    color: black;
-    cursor: pointer;
-    margin-right: 10px;
-}
 
-.nav-buttons{
-    border: 0;
-}
 
 #sigin-btn {
     font-weight: bold;
@@ -69,6 +85,7 @@ span {
     margin-right: 15px;
     color: black;
     cursor: pointer;
+
 }
 
 #login-btn {
@@ -82,6 +99,7 @@ span {
     color: #ffff;
     cursor: pointer;
 }
+
 
 #main-image {
 
